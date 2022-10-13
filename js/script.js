@@ -35,17 +35,17 @@ for(let i = 1; i <= limit; i++){
 
     // aggiungo adesso il cambio scritta se multiplo di 5
     if(!(i % 3)){
-        box.innerHTML = 'fizz';
+        box.innerHTML = 'Fizz';
         
         // box.innerHTML = fizz;
     }
     // aggiungo adesso il cambio scritta se multiplo di 5
     if(!(i % 5)){
-        box.innerHTML = 'buzz';
+        box.innerHTML = 'Buzz';
     }
     // aggiungo adesso il cambio patola al multiplo di 15
     if(!(i % 15)){
-        box.innerHTML = 'fizzbuzz';
+        box.innerHTML = 'FizzBuzz';
     }
     // lo aggiungo poi al container
     container.append(box);
