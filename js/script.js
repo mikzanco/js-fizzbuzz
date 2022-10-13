@@ -37,11 +37,11 @@ for(let i = 1; i <= limit; i++){
         
         // box.innerHTML = fizz;
     }
-    // aggiungo adesso il cambio colore e scritta se multiplo di 5
+    // aggiungo adesso il cambio scritta se multiplo di 5
     if(!(i % 5)){
         box.innerHTML = 'buzz';
     }
-    // aggiungo adesso il cambio colore e scritta se multiplo di 15
+    // aggiungo adesso il cambio patola al multiplo di 15
     if(!(i % 15)){
         box.innerHTML = 'fizzbuzz';
     }
