@@ -28,3 +28,17 @@ body{
     background-color: white;
     border-radius: 4px;
 }
+
+.coral{
+    background-color: coral;
+    /* colore dei multipli di 5 */
+}
+
+.acqua{
+    background-color: aqua;
+    /* colore multipli di 3 */
+}
+
+.purple{
+    background-color: blueviolet;
+}
