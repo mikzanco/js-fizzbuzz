@@ -30,8 +30,10 @@ for(let i = 1; i <= limit; i++){
     // }
     
     // scrivo dentro al box i numeri dati dal ciclo i 
+    
     box.innerHTML = i;
 
+    // aggiungo adesso il cambio scritta se multiplo di 5
     if(!(i % 3)){
         box.innerHTML = 'fizz';
         
